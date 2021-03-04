@@ -43,7 +43,7 @@ if new_link_annunci:
     print("Ci sono nuovi risultati")
     
     for new_link in new_link_annunci:
-        print("apri o chiudi pagina?") #per evitare spam che si aprono controll stringa inserita se è apri, apri pagine
+        print("apri o chiudi pagina?") #per evitare spam che si aprono pagine a gogo controllo stringa inserita se è apri, apre pagine 1 a 1, se è altro chiude tutto
         Apri=input().upper()
         if(Apri == 'APRI'):
             webbrowser.open(new_link)
